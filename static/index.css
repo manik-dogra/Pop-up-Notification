@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, .card{
+    background-color: #212529;
+}
+.card{
+    border: 2px solid white;
+    border-radius: 2em;
+    width: 60vw;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+label{
+    color: black;
+}
+
+.send{
+    width: fit-content;
+    margin: 2%;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-title{
+    color:red;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.send {
+    font-weight: bolder;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: white;
+}
+.send:hover {
+    color: red;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+    border: 2px solid white;
+}
+.send:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-floating > input, .product_details{
+    border: 3px solid #212529;
+}
+.form-floating > input:focus, .product_details:focus{
+    outline: none;
+    box-shadow: none;
+    border: 3px solid red;
+} 
